@@ -1,5 +1,5 @@
-name: 'Java Check'
-description: 'Analyze Java 8 code using our hosted checker'
+name: 'Maconomy Java Check'
+description: 'Compile-checks Java 8 sources against a curated set of bundled libraries and surfaces compiler diagnostics as PR annotations.'
 author: 'DevNines'
 
 branding:
