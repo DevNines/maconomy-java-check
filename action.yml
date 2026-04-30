@@ -1,0 +1,40 @@
+name: 'Java Check'
+description: 'Analyze Java 8 code using our hosted checker'
+author: 'DevNines'
+
+branding:
+  icon: 'check-circle'
+  color: 'blue'
+
+inputs:
+  api-key:
+    description: 'API key for the checker service (store in repo secrets)'
+    required: true
+  api-url:
+    description: 'Checker API endpoint'
+    required: false
+    default: 'https://maconomyaction.devnines.com'
+  source-path:
+    description: 'Path to the Java source directory to analyze'
+    required: false
+    default: '.'
+  fail-on:
+    description: 'Severity threshold that fails the action (info|warning|error)'
+    required: false
+    default: 'error'
+  timeout-seconds:
+    description: 'Max time to wait for results'
+    required: false
+    default: '300'
+
+outputs:
+  job-id:
+    description: 'The analysis job ID (useful for debugging)'
+  findings-count:
+    description: 'Total number of findings reported'
+  status:
+    description: 'Final job status (success|failed|timeout)'
+
+runs:
+  using: 'node20'
+  main: 'dist/index.js'

@@ -1,0 +1,31 @@
+Maconomy Java Check — License
+
+Copyright (c) 2026 DevNines. All rights reserved.
+
+Use of this software requires a valid API key issued by DevNines for the
+JavaCheck service hosted at https://maconomyaction.devnines.com (or a
+successor URL designated by DevNines in writing). You may use this
+software solely:
+
+  1. To submit Java source code to the JavaCheck service for analysis,
+     using an API key issued to you by DevNines.
+  2. In accordance with any separate service agreement governing your
+     use of the JavaCheck service.
+
+You may NOT, without DevNines's prior written consent:
+
+  - Redistribute, sublicense, or sell this software or any derivative
+    work.
+  - Modify or fork this software for the purpose of operating a
+    competing service.
+  - Reverse-engineer, decompile, or otherwise attempt to derive the
+    source code of any DevNines-operated component reached by this
+    software.
+  - Remove or alter any copyright, trademark, or attribution notices.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL DEVNINES BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR ITS USE.
